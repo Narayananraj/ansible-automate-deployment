@@ -8,13 +8,15 @@
   <name>dockeransible Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    <!-- Updated JUnit Dependency -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.5.3</version>
-      <scope>test</scope>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version> <!-- Updated to a more recent version -->
+        <scope>test</scope>
     </dependency>
-  </dependencies>
+</dependencies>
+
   <build>
     <finalName>dockeransible</finalName>
   </build>
